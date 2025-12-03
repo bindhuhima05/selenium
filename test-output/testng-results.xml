@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Hi github]]>
+    </line>
+    <line>
+      <![CDATA[Hi Jenkin]]>
+    </line>
+    <line>
+      <![CDATA[Hi maven]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-12-03T12:30:20 IST" name="Suite" finished-at="2025-12-03T12:30:20 IST" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2025-12-03T12:30:20 IST" name="Test" finished-at="2025-12-03T12:30:20 IST" duration-ms="68">
+      <class name="maven.MavenPracticeTest">
+        <test-method signature="mavenPracticeTest()[pri:0, instance:maven.MavenPracticeTest@74e52303]" started-at="2025-12-03T12:30:20 IST" name="mavenPracticeTest" finished-at="2025-12-03T12:30:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hi maven]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mavenPracticeTest -->
+      </class> <!-- maven.MavenPracticeTest -->
+      <class name="jenkins.JenkinsPracticeTest">
+        <test-method signature="jenkinsPracticeTest()[pri:0, instance:jenkins.JenkinsPracticeTest@158da8e]" started-at="2025-12-03T12:30:20 IST" name="jenkinsPracticeTest" finished-at="2025-12-03T12:30:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hi Jenkin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jenkinsPracticeTest -->
+      </class> <!-- jenkins.JenkinsPracticeTest -->
+      <class name="github.GithubPracticeTest">
+        <test-method signature="githubPracticeTest()[pri:0, instance:github.GithubPracticeTest@6dc17b83]" started-at="2025-12-03T12:30:20 IST" name="githubPracticeTest" finished-at="2025-12-03T12:30:20 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hi github]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- githubPracticeTest -->
+      </class> <!-- github.GithubPracticeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
